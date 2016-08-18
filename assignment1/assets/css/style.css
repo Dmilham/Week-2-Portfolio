@@ -273,19 +273,20 @@ a {
 	}
 
 	.sidebar{
-		float: right;
+		float: none;
+		height: 200px;
+		margin-left: 75%;
 		
 	}
+
+		#connect{
+	margin-left:5%;
+	width: 100%;
+
 
 	p {
 		clear:both;
 		text-overflow: auto;
-
-	}
-
-	#connect{
-	margin-left:50%;
-	width: 100%;
 	}
 
 	footer{
@@ -423,7 +424,8 @@ a {
 
 
 	#contact-form {
-		width: 400px;
+		width:100%;
+		margin-right: 15px;
 
 }
 		
